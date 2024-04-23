@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My first form</title>
+        <style>
+            form {
+                width: 500px;
+                background-color: #fff;
+                padding: 30px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px
+                    rgba(0, 0, 0, 0.1);
+                margin-left: 30%;
+            }
+            fieldset {
+                border: 3px solid black;
+                padding: 10px;
+                margin: 0;
+            }
+        </style>
+        </head>
+        <body>
+
+            <form>
+                <h3>New User</h3>
+                <fieldset>
+               <p> Username : <input type="text" name="Username"></p>
+               <p>Password : <input type="password" name="Password"></p>
+                <p></p>Confirm Password : <input type="text" name="Confirm Password"></p>
+                <p> How did you hear about us ?</p>
+                <p> <input type="radio" name="Aboutus"> Social Media</p>
+                <p><input type="radio" name="Aboutus"> LinkedIn</p>
+                <p> <input type="radio" name="Aboutus"> Newspaper</p>
+    
+                <p><input type="button" name="T&C"> I agree to the terms and conditions </p>
+                <br/>
+                <input type="Submit" value="Submit">
+                <input type="Submit" value="Cancel">
+            </fieldset>
+            </form>
+        </body>
+        </html>

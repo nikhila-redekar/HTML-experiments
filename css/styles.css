@@ -41,4 +41,27 @@ body {
     bottom: 0;
     width: 100%;
   }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .gall {
+    flex: 1 0 25%; /* Two items per row by default */
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .gall {
+        flex: 1 0 100%;
+    }
+  }
+
+  img {
+    display: block;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+  }
   
